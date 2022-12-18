@@ -7,18 +7,18 @@
 
 
 
-// Console.WriteLine("Введите первое число");
-// int numberA = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите второе число");
-// int numberB = Convert.ToInt32(Console.ReadLine());
-// if (numberA >= numberB)
-// {
-//     Console.WriteLine($"a = {numberA}; b = {numberB} -> max = {numberA}");
-// }
-// else
-// {
-//     Console.WriteLine($"a = {numberA}; b = {numberB} -> max = {numberB}");
-// }
+Console.WriteLine("Введите первое число");
+int numberA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int numberB = Convert.ToInt32(Console.ReadLine());
+if (numberA >= numberB)
+{
+    Console.WriteLine($"a = {numberA}; b = {numberB} -> max = {numberA}");
+}
+else
+{
+    Console.WriteLine($"a = {numberA}; b = {numberB} -> max = {numberB}");
+}
 
 
 
@@ -35,22 +35,22 @@
 
 
 
-// Console.WriteLine("Введите первое число");
-// int numA = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите второе число");
-// int numB = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите третье число");
-// int numС = Convert.ToInt32(Console.ReadLine());
-// int max = numA;
-// if (numB > max)
-// {
-//     max = numB;
-// }
-// if (numС > max)
-// {
-//     max = numС;
-// }
-// Console.WriteLine($"{numA}, {numB}, {numС} -> {max}");
+Console.WriteLine("Введите первое число");
+int numA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int numB = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите третье число");
+int numС = Convert.ToInt32(Console.ReadLine());
+int max = numA;
+if (numB > max)
+{
+    max = numB;
+}
+if (numС > max)
+{
+    max = numС;
+}
+Console.WriteLine($"{numA}, {numB}, {numС} -> {max}");
 
 
 
@@ -67,16 +67,16 @@
 
 
 
-// Console.WriteLine("Введите число ");
-// int num = Convert.ToInt32(Console.ReadLine());
-// if (num % 2 == 0)
-// {
-//     Console.WriteLine($"{num} -> да");
-// }
-// else
-// {
-//     Console.WriteLine($"{num} -> нет");
-// }
+Console.WriteLine("Введите число ");
+int num = Convert.ToInt32(Console.ReadLine());
+if (num % 2 == 0)
+{
+    Console.WriteLine($"{num} -> да");
+}
+else
+{
+    Console.WriteLine($"{num} -> нет");
+}
 
 
 
