@@ -97,11 +97,8 @@ int remainder = N % 2;
 int evenNum = (N - remainder);
 int langht = N;
 int[] array = new int[langht];
-
-
-
 for (int i = 2; i < langht; i = i + 2)
 {
     array[i] = i;
-    Console.Write($"{N} -> {array[i]}");
+    Console.WriteLine($"{array[i]}");
 }
